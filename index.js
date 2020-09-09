@@ -2,6 +2,7 @@ const puppeter = require('puppeteer');
 
 (async () => {
 
+    //Url do filme ou site de onde você vai coletar as informações
     let filmeUrl = 'https://www.imdb.com/title/tt6723592/?ref_=hm_fanfav_tt_1_pd_fp1';
     
     let browser = await puppeter.launch({headless: false});
